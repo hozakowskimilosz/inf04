@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="Domek w górach"
+            android:textSize="48sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/obraz" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#008080"
+            android:backgroundTint="#008080"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#008080"
+                android:text="POLUB"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#008080"
+                android:text="USUŃ"
+                app:cornerRadius="5dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#008080"
+                android:text="ZAPISZ"
+                app:cornerRadius="5dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0 polubień"
+            android:textAlignment="textEnd"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="#808080" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Opis"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
