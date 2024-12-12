@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\mhoza\Desktop\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(6,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\mhoza\Desktop\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(21,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  ConsoleApplication1.vcxproj -> C:\Users\mhoza\Desktop\C++\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
